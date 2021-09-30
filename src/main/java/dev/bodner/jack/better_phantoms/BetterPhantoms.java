@@ -64,16 +64,6 @@ public final class BetterPhantoms extends JavaPlugin implements Listener {
                 }
             }
         },0, 1);
-
-        scheduler.scheduleSyncRepeatingTask(this, () -> {
-            for (World world : Bukkit.getWorlds()){
-                for (LivingEntity entity : world.getLivingEntities()){
-                    if (entity.getType().equals(EntityType.PHANTOM)){
-
-                    }
-                }
-            }
-        }, 0, 1);
     }
 
 
@@ -81,5 +71,5 @@ public final class BetterPhantoms extends JavaPlugin implements Listener {
     @Override
     public void onDisable() {
     }
-    
+
 }
