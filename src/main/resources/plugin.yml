@@ -1,0 +1,6 @@
+name: BetterPhantoms
+version: ${project.version}
+main: dev.bodner.jack.better_phantoms.BetterPhantoms
+api-version: 1.17
+authors: [ Eilux ]
+description: Changes how phantoms work to make them less annoying
